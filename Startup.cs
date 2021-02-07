@@ -26,7 +26,7 @@ namespace NetCoreWeb
         {
             services.AddControllersWithViews();
 
-            //使用容器注册服务
+            //浣跨敤瀹瑰櫒娉ㄥ唽鏈嶅姟
             services.AddSingleton<IPathProvider, PathProvider>();
         }
 
