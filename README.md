@@ -5,6 +5,6 @@ Use Aspose.Words to replace Word document tags
 
 ## 如图
 
-![code](https://github.com/WuLex/UsefulPicture/blob/master/screenshots/code.png)
+![code](https://raw.githubusercontent.com/WuLex/UsefulPicture/main/screenshots/code.png)
 
-![doc](https://github.com/WuLex/UsefulPicture/blob/master/screenshots/doc.png)
+![doc](https://raw.githubusercontent.com/WuLex/UsefulPicture/main/screenshots/doc.png)
