@@ -12,8 +12,6 @@ using System.Threading.Tasks;
 
 namespace NetCoreWeb.Controllers
 {
-
-
     public class ConvertController : Controller
     {
 
@@ -62,6 +60,20 @@ namespace NetCoreWeb.Controllers
             //var path = Path.Combine(_hostingEnvironment.WebRootPath, "Sample.PNG");
 
 
+            return View();
+        }
+
+        public IActionResult DynamicGenerateWord()
+        {
+            try
+            {
+                WordHelper.GenerateWordDynamically();
+            }
+            catch (Exception ex)
+            {
+                return Content(ex.Message);
+            }
+          
             return View();
         }
     }
